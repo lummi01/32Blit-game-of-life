@@ -84,6 +84,9 @@ void init()
 	for (int i=0; i<CELL; i++)
 		world[0][((SCREEN_WIDTH-SCREEN_HEIGHT) / 2) + 10 + rand () %(SCREEN_HEIGHT - 20)][10 + rand() %(SCREEN_HEIGHT - 20)] = 1;
 
+//	for (int i=0; i<CELL; i++)
+//		world[0][70 + rand () %20][50 + rand() %20] = 1;
+
 /*
 	short unit[6][5][7] = {
 		{{1,1,1,0,0,0,0},
